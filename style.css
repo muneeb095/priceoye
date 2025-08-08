@@ -139,7 +139,7 @@ main {
     width: 100%;
 }
 
-.latest-wireless .row:first-child .content a{
+.latest-wireless .row:first-child .content a {
     color: var(--white-clr);
     font-weight: 500;
     font-size: 1.2em;
@@ -153,7 +153,7 @@ main {
     display: flex;
     flex-direction: column;
     text-decoration-color: var(--transparent);
-    border-radius: .4em ;
+    border-radius: .4em;
     color: var(--black-clr);
     transition: transform .5s ease-in-out;
 }
@@ -162,7 +162,7 @@ main {
     transform: translateY(-.5em);
 }
 
-.latest-wireless .row .col-4 img{
+.latest-wireless .row .col-4 img {
     width: 60%;
     align-self: center;
     padding-block: 1em;
@@ -183,5 +183,118 @@ main {
 }
 
 .static-banner {
-    margin-block: 2.5em;
+    margin-block-start: 5em;
+    margin-block-end: 2.5em;
+}
+
+.latest-smart-watches {
+    background-image: url(section-smart-watches-bg-md.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-block: 2em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    margin-block-start: 5em;
+}
+
+.latest-smart-watches .row:first-child .content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.latest-smart-watches .row:first-child .content a {
+    color: var(--white-clr);
+    font-weight: 500;
+    font-size: 1.2em;
+    text-decoration-color: var(--transparent);
+    margin-block-end: 1em;
+}
+
+.latest-smart-watches .row .col-4 {
+    background-color: var(--white-clr);
+    border: 1px solid var(--border-clr);
+    display: flex;
+    flex-direction: column;
+    text-decoration-color: var(--transparent);
+    border-radius: .4em;
+    color: var(--black-clr);
+    transition: transform .5s ease-in-out;
+}
+
+.latest-smart-watches .row .col-4:hover {
+    transform: translateY(-.5em);
+}
+
+.latest-smart-watches .row .col-4 img {
+    width: 60%;
+    align-self: center;
+    padding-block: 1em;
+    border-radius: .4em .4em 0 0;
+}
+
+.latest-smart-watches .row .col-4>div {
+    display: flex;
+    border-top: 1px solid var(--border-clr);
+    flex-direction: column;
+    padding: 1em;
+    line-height: 1.1em;
+}
+
+.latest-smart-watches .row .col-4>div div {
+    margin-block-start: 1em;
+    margin-block-end: .5em;
+}
+
+footer {
+    background-color: var(--bg-blue);
+    padding-block: 5em;
+}
+
+footer .row {
+    color: var(--white-clr);
+}
+
+footer .row ul {
+    list-style-type: none;
+    line-height: 1.5em;
+}
+
+footer .row h2 {
+    font-size: 1.5em;
+    margin-block-end: 1em;
+}
+
+footer .row ul a {
+    font-size: 1.2em;
+    color: var(--white-clr);
+    text-decoration-color: var(--transparent);
+}
+
+footer .row .img img {
+    width: 50%;
+    margin-block-end: 1em;
+}
+
+footer .last-row ul{
+    gap: .5em;
+}
+
+footer .last-row {
+    margin-block-start: 1.2em;
+}
+
+footer .last-row span{
+    font-size: 1.1em;
+}
+
+footer .last-row {
+    align-items: center;
+}
+
+.play-store {
+    width: 200px;
+    margin-block-start: 1em;
 }
