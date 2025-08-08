@@ -50,9 +50,10 @@ header .logo img {
 }
 
 form input {
-    padding: .5em;
+    padding: 1em;
     border-radius: .4em;
     width: 100%;
+    font-size: 1em;
 }
 
 .btn a {
@@ -60,8 +61,10 @@ form input {
     color: var(--white-clr);
     border: 1px solid var(--white-clr);
     background-color: var(--bg-blue);
-    padding: .5em;
+    padding: 1em;
+    font-weight: 600;
     border-radius: .2em;
+    transition: color .2s ease-in-out, background-color .2s ease-in-out;
 }
 
 .btn a:hover {
@@ -177,4 +180,8 @@ main {
 .latest-wireless .row .col-4>div div {
     margin-block-start: 1em;
     margin-block-end: .5em;
+}
+
+.static-banner {
+    margin-block: 2.5em;
 }
