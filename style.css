@@ -46,7 +46,7 @@ header .logo img {
 }
 
 .form form {
-    width: 100%;
+    width: 80%;
 }
 
 form input {
@@ -311,4 +311,113 @@ footer .last-row {
     background-size: contain;
     height: 500px;
     width: 100%;
+}
+
+@media (max-width: 567px) {
+    .col-3 {
+        justify-content: flex-start;
+        margin-block-start: 1em;
+        width: 100%;
+        flex: 0 0 100%;
+        flex-wrap: wrap;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .col-8 {
+        width: 100%;
+        flex: 0 0 100%;
+    }
+}
+
+@media (min-width: 567px) {
+    .col-3 {
+        justify-content: flex-start;
+        margin-block-start: 1em;
+        width: 100%;
+        flex: 0 0 100%;
+    }
+    
+    .row {
+        flex-wrap: wrap;
+        margin-inline: auto;
+    }
+    
+    .col-8 {
+        width: 50%;
+        flex: 0 0 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-3 {
+        width: 100%;
+        flex: 0 0 100%;
+    }
+    
+    .row {
+        flex-wrap: wrap;
+        padding-inline: 1em;
+        margin-inline: auto;
+    }
+    .col-8 {
+        width: 33.33%;
+        flex: 0 0 33.33%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-3 {
+        justify-content: flex-end;
+        width: 33.33%;
+        flex: 0 0 33.33%;
+    }
+    
+    .row {
+        flex-wrap: wrap;
+        padding-inline: 1em;
+        margin-inline: auto;
+    }
+    .col-8 {
+        width: 25%;
+        flex: 0 0 25%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .col-3 {
+        justify-content: flex-end;
+        width: 30%;
+        flex: 0 0 30%;
+    }
+    
+    .row {
+        margin-inline: auto;
+        flex-wrap: wrap;
+        padding-inline: 1em;
+    }
+    .col-8 {
+        width: 25%;
+        flex: 0 0 25%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-3 {
+        justify-content: flex-end;
+        width: 33.33%;
+        flex: 0 0 33.33%;
+    }
+    
+    .row {
+        margin-inline: auto;
+        flex-wrap: wrap;
+        padding-inline: 1em;
+    }
+    .col-8 {
+        width: 12.5%;
+        flex: 0 0 12.5%;
+    }
 }
