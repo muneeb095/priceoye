@@ -118,7 +118,12 @@ main {
     padding-block: 1em;
 }
 
-.banner img {
+.banner-bg-img {
+    background-image: url(pakistan-priceoye-slider-u3dhq.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
     width: 100%;
 }
 
@@ -297,4 +302,13 @@ footer .last-row {
 .play-store {
     width: 200px;
     margin-block-start: 1em;
+}
+
+.static-bg-img {
+    background-image: url(static-banner-bnpl-v8.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    width: 100%;
 }
