@@ -322,13 +322,22 @@ footer .last-row {
         flex-wrap: wrap;
     }
 
+    header {
+        padding: 1em;
+    }
+
     .row {
         flex-wrap: wrap;
     }
 
     .col-8 {
+        width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .banner {
         width: 100%;
-        flex: 0 0 100%;
+        flex: 1 1 100%;
     }
 }
 
@@ -339,12 +348,15 @@ footer .last-row {
         width: 100%;
         flex: 0 0 100%;
     }
-    
+
+    header {
+        padding: 1em;
+    }
+
     .row {
         flex-wrap: wrap;
-        margin-inline: auto;
     }
-    
+
     .col-8 {
         width: 50%;
         flex: 0 0 50%;
@@ -356,12 +368,15 @@ footer .last-row {
         width: 100%;
         flex: 0 0 100%;
     }
-    
+
+    header {
+        padding: 1em;
+    }
+
     .row {
         flex-wrap: wrap;
-        padding-inline: 1em;
-        margin-inline: auto;
     }
+
     .col-8 {
         width: 33.33%;
         flex: 0 0 33.33%;
@@ -374,12 +389,15 @@ footer .last-row {
         width: 33.33%;
         flex: 0 0 33.33%;
     }
-    
+
+    header {
+        padding: 1em;
+    }
+
     .row {
         flex-wrap: wrap;
-        padding-inline: 1em;
-        margin-inline: auto;
     }
+
     .col-8 {
         width: 25%;
         flex: 0 0 25%;
@@ -392,12 +410,15 @@ footer .last-row {
         width: 30%;
         flex: 0 0 30%;
     }
-    
-    .row {
-        margin-inline: auto;
-        flex-wrap: wrap;
-        padding-inline: 1em;
+
+    header {
+        padding: 1em;
     }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
     .col-8 {
         width: 25%;
         flex: 0 0 25%;
@@ -410,12 +431,15 @@ footer .last-row {
         width: 33.33%;
         flex: 0 0 33.33%;
     }
-    
-    .row {
-        margin-inline: auto;
-        flex-wrap: wrap;
-        padding-inline: 1em;
+
+    header {
+        padding: 1em;
     }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
     .col-8 {
         width: 12.5%;
         flex: 0 0 12.5%;
