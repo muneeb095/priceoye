@@ -187,11 +187,6 @@ main {
     margin-block-end: .5em;
 }
 
-.static-banner {
-    margin-block-start: 5em;
-    margin-block-end: 2.5em;
-}
-
 .latest-smart-watches {
     background-image: url(section-smart-watches-bg-md.png);
     background-position: center center;
@@ -201,7 +196,6 @@ main {
     display: flex;
     flex-direction: column;
     row-gap: 1em;
-    margin-block-start: 5em;
 }
 
 .latest-smart-watches .row:first-child .content {
@@ -335,10 +329,41 @@ footer .last-row {
         flex: 0 0 50%;
     }
 
-    .banner {
+    .banner, .static-banner{
+        height: 200px;
         width: 100%;
         flex: 1 1 100%;
     }
+
+    .latest-wireless,
+    .latest-smart-watches {
+        padding-inline: 1em;
+    }
+
+    .col-4 {
+        width: 80%;
+        margin-inline: auto;
+        margin-block-end: 1em;
+    }
+
+    footer {
+        padding-inline: 1em;
+        padding-block: 1.5em;
+    }
+
+    .col-2 {
+        width: 100%;
+        flex: 0 0 100%;
+        line-height: 3em;
+        justify-content: flex-start;
+    }
+
+    .f-logo, .f-menu {
+        width: 50%;
+        flex: 0 0 50%;
+        margin-block-end: 1em;
+    }
+
 }
 
 @media (min-width: 567px) {
@@ -361,6 +386,40 @@ footer .last-row {
         width: 50%;
         flex: 0 0 50%;
     }
+    
+    .banner, .static-banner{
+        height: 250px;
+        width: 100%;
+        flex: 1 1 100%;
+    }
+
+    .latest-wireless,
+    .latest-smart-watches {
+        padding-inline: 1em;
+    }
+    .col-4 {
+        width: 45%;
+        flex: 0 0 45%;
+        margin-inline: auto;
+        margin-block-end: 1em;
+    }
+
+    footer {
+        padding-inline: 1em;
+        padding-block: 1.5em;
+    }
+
+    .col-2 {
+        width: 100%;
+        flex: 0 0 100%;
+        line-height: 3em;
+    }
+
+    .f-logo, .f-menu {
+        width: 50%;
+        flex: 0 0 50%;
+        margin-block-end: 1em;
+    }
 }
 
 @media (min-width: 768px) {
@@ -372,14 +431,59 @@ footer .last-row {
     header {
         padding: 1em;
     }
-
+    
     .row {
         flex-wrap: wrap;
     }
-
+    
     .col-8 {
         width: 33.33%;
         flex: 0 0 33.33%;
+    }
+    
+    .banner, .static-banner{
+        height: 350px;
+        width: 100%;
+        flex: 1 1 100%;
+    }
+    
+    .latest-wireless,
+    .latest-smart-watches {
+        padding-inline: 1em;
+    }
+    
+    .col-4 {
+        width: 24%;
+        flex: 0 0 24%;
+        margin-inline: auto;
+        margin-block-end: 1em;
+    }
+
+    footer {
+        padding-inline: 1em;
+        padding-block: 1.5em;
+    }
+
+    .col-2 {
+        width: 50%;
+        flex: 0 0 50%;
+        line-height: 3em;
+    }
+
+    .last-row .col-2 ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .f-logo, .f-menu {
+        width: 50%;
+        flex: 0 0 50%;
+        margin-block-end: 1em;
+    }
+
+    .f-payment {
+        width: 50%;
+        flex: 0 0 50%;
     }
 }
 
@@ -402,6 +506,17 @@ footer .last-row {
         width: 25%;
         flex: 0 0 25%;
     }
+
+    .banner, .static-banner {
+        height: 450px;
+        width: 100%;
+        flex: 1 1 100%;
+    }
+
+    .last-row .col-2 ul {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -422,6 +537,12 @@ footer .last-row {
     .col-8 {
         width: 25%;
         flex: 0 0 25%;
+    }
+    
+    .banner, .static-banner {
+        height: 500px;
+        width: 100%;
+        flex: 1 1 100%;
     }
 }
 
