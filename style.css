@@ -256,6 +256,7 @@ footer .row {
     color: var(--white-clr);
 }
 
+
 footer .row ul {
     list-style-type: none;
     line-height: 1.5em;
@@ -270,6 +271,11 @@ footer .row ul a {
     font-size: 1.2em;
     color: var(--white-clr);
     text-decoration-color: var(--transparent);
+    transition: color .2s ease-in-out;
+}
+
+footer .row ul a:hover {
+    color: #f8f8f8e7;
 }
 
 footer .row .img img {
@@ -291,6 +297,11 @@ footer .last-row span {
 
 footer .last-row {
     align-items: center;
+}
+
+footer .last-row ul a img:hover {
+    background-color: rgba(6, 40, 52, 0.838);
+    border-radius: 5px;
 }
 
 .play-store {
@@ -329,7 +340,8 @@ footer .last-row {
         flex: 0 0 50%;
     }
 
-    .banner, .static-banner{
+    .banner,
+    .static-banner {
         height: 200px;
         width: 100%;
         flex: 1 1 100%;
@@ -358,7 +370,8 @@ footer .last-row {
         justify-content: flex-start;
     }
 
-    .f-logo, .f-menu {
+    .f-logo,
+    .f-menu {
         width: 50%;
         flex: 0 0 50%;
         margin-block-end: 1em;
@@ -386,8 +399,9 @@ footer .last-row {
         width: 50%;
         flex: 0 0 50%;
     }
-    
-    .banner, .static-banner{
+
+    .banner,
+    .static-banner {
         height: 250px;
         width: 100%;
         flex: 1 1 100%;
@@ -397,6 +411,7 @@ footer .last-row {
     .latest-smart-watches {
         padding-inline: 1em;
     }
+
     .col-4 {
         width: 45%;
         flex: 0 0 45%;
@@ -415,7 +430,8 @@ footer .last-row {
         line-height: 3em;
     }
 
-    .f-logo, .f-menu {
+    .f-logo,
+    .f-menu {
         width: 50%;
         flex: 0 0 50%;
         margin-block-end: 1em;
@@ -431,27 +447,28 @@ footer .last-row {
     header {
         padding: 1em;
     }
-    
+
     .row {
         flex-wrap: wrap;
     }
-    
+
     .col-8 {
         width: 33.33%;
         flex: 0 0 33.33%;
     }
-    
-    .banner, .static-banner{
+
+    .banner,
+    .static-banner {
         height: 350px;
         width: 100%;
         flex: 1 1 100%;
     }
-    
+
     .latest-wireless,
     .latest-smart-watches {
         padding-inline: 1em;
     }
-    
+
     .col-4 {
         width: 24%;
         flex: 0 0 24%;
@@ -475,7 +492,8 @@ footer .last-row {
         justify-content: flex-end;
     }
 
-    .f-logo, .f-menu {
+    .f-logo,
+    .f-menu {
         width: 50%;
         flex: 0 0 50%;
         margin-block-end: 1em;
@@ -507,7 +525,8 @@ footer .last-row {
         flex: 0 0 25%;
     }
 
-    .banner, .static-banner {
+    .banner,
+    .static-banner {
         height: 450px;
         width: 100%;
         flex: 1 1 100%;
@@ -538,8 +557,9 @@ footer .last-row {
         width: 25%;
         flex: 0 0 25%;
     }
-    
-    .banner, .static-banner {
+
+    .banner,
+    .static-banner {
         height: 500px;
         width: 100%;
         flex: 1 1 100%;
